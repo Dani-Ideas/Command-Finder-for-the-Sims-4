@@ -1,1 +1,80 @@
 # Command-Finder-for-the-Sims-4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comandos Sims 4</title>
+  <style>
+    body {
+      font-family: system-ui;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 350px;
+    }
+    summary {
+      cursor: pointer;
+      outline: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Buscador de comandos para los Sims 4</h1>
+      <p id = 'block'></p>
+    </section>
+    <nav>
+
+      <details open>
+        <summary>
+          SIMS
+        </summary>
+        <ol>
+          <li><input type = 'button' value='💡Habilidades' id = 'ability'/></li>
+          <li><input type = 'button' value='🎭Rasgos' id = 'feature'/></li>
+          <li><input type = 'button' value='🤝Relaciones' id = 'relations'/></li>
+          <li><input type = 'button' value='🍔Nesesidades' id = 'needs'/></li>
+          <li><input type = 'button' value='👶Embarazo' id = 'pregnancy'/></li>
+          <li><input type = 'button' value='🧛‍♂️🧜‍♀️👽Poderes' id = 'powers'/></li>
+        </ol>
+      </details>
+      <details>
+        <summary>
+          OCUPACIONES
+        </summary>
+        <ol>
+          <li><input type = 'button' value='💼Trabajo' id = 'jobs'/></li>
+          <li><input type = 'button' value='📚Coleguio y trabajos' id = 'school'/></li>
+          <li><input type = 'button' value='📓Universidad' id = 'collage'/></li>
+        </ol>
+      </details>
+
+      <details>
+        <summary>
+          SOLARES
+        </summary>
+        <ol>
+           <li><input type = 'button' value='💰Dinero' id = 'money'/></li>
+          <li><input type = 'button' value='📈Negocios' id = 'business'/></li>
+          <li><input type = 'button' value='🏡Construir' id = 'build'/></li>
+        </ol>
+      </details>
+      <details>
+        <summary>
+          ENTORNOS/MUNDOS
+        </summary>
+        <ol>
+          <li><input type = 'button' value='🚤Vid.Isleña' id = 'islandLife'/></li>
+          <li><input type = 'button' value='⛺Selva' id = 'jungle'/></li>
+          <li><input type = 'button' value='🔬Stanger Ville' id = 'stangerVille'/></li>
+        </ol>
+      </details>
+    </nav>
+  </main>
+
+  <script src='compilador.js'></script>
+</body>
+</html>
